@@ -136,7 +136,7 @@ class Callbacks : FunSpec({
 ```
 
 Note that the order of the callbacks in the file is not important.
-For example, an `afterEach` block can be placed first in the class if you so desired.
+For example, an `afterEach` block can be placed first in the class if you so desire.
 
 If we want to extract common code, we can create a named function and re-use it for multiple files.
 For example, say we wanted to reset a database before every test in more than one file, we could do this:
